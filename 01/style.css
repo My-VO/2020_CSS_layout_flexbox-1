@@ -37,9 +37,10 @@ header {
     flex: 1;
 }
 
-#navigation {
+#navigation-inner {
     background-color: #7CB71F;
     padding: 1vh 1vw;
+    height: 90%;
 }
 
 #blue {
