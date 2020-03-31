@@ -33,25 +33,36 @@ header {
 main {
     display: flex;
     width: 100%;
-    /* height: 100%; */
 }
-#additional {
+
+#additional,
+#nav,
+#content {
     display: flex;
-    width: 20%;
+    flex-direction: column;
 }
 
 #blue {
     background-color: #137FA8;
     padding: 1.5vh 1.5vw;
 }
-#content {
-    display: flex;
-    flex-direction: column;
-    width: 60%;
+
+#green {
+    background-color: #7CB71F;
+    padding: 1.5vh 1.5vw;
 }
+
+#additional {
+    flex: 1;
+}
+
+#content {
+    padding: 1.5vh 1.5vw;
+    flex: 2;
+}
+
 #nav {
-    display: flex;
-    width: 30%;
+    flex: 1;
 }
 
 footer {

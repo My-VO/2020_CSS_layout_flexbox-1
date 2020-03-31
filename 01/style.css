@@ -32,9 +32,8 @@ header {
 #navigation,
 #tips {
     display: flex;
-    width: 30%;
+    width: 20%;
     flex-direction: column;
-    flex: 1;
 }
 
 #navigation-inner {
@@ -69,7 +68,7 @@ main ul {
 #resume {
     display: flex;
     flex-direction: column;
-    flex: 2;
+    width: 60%;
     padding: 1vh 0.9vw;
 }
 
